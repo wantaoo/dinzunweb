@@ -5,7 +5,15 @@ var app=angular.module("myApp",['ngRoute'])
 })
 .controller('AboutController', function ($scope, $route) { $scope.$route = $route;})
 .controller('ServiceController', function ($scope, $route) { $scope.$route = $route;})
-.controller('CaseController', function ($scope, $route) { $scope.$route = $route;})
+.controller('CaseController', function ($scope, $route) { 
+    $scope.$route = $route;
+    $scope.init = function() {
+        $('.VivaTimeline').vivaTimeline({
+            carousel: true,
+            carouselTime: 3000
+        });
+    }
+})
 .config(function($routeProvider){
 	$routeProvider
 	.when('/home', {
