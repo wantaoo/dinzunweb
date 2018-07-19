@@ -1,0 +1,226 @@
+.sticky-navigation{
+	min-height:70px;
+	margin-bottom:0 !important;
+	border:none;
+	background:#fff;
+	box-shadow:0 2px 8px 0 rgba(50, 50, 50, 0.08);
+}
+nav .navbar-header .navbar-brand{
+	font-size:30px;
+	font-weight:bold;
+	color:#889cc3;
+	padding:0;
+}
+nav #toggleContent .navbar-nav {
+	margin-top:10px;
+}
+.header-container-wrap{
+	height:70px;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color:#1717de;
+}
+.navbar-default .navbar-nav > .active > a{
+	border-radius:6px;
+}
+
+.content{
+	height:1000px;
+	margin-top:70px;
+	width:100%;
+}
+.overlay_wrap{
+	background-image:url(../img/coverlay.jpg);
+	position:relative;
+	background-attachment: fixed;
+	background-position: top center;
+	background-size: cover;
+	
+}
+.overlay_content{
+	padding-top:180px;
+	padding-bottom:90px;
+}
+.overlay_box{
+	color:#fff;
+	background: rgba(0, 0, 0, 0.5);
+	padding-bottom:20px;
+}
+.weChat_container{
+	font-size:20px;
+}
+.weChat_container p{
+	height:80px;
+	line-height:80px;
+	border-bottom:1px solid #bdcaa2;
+}
+.weChat_icon{
+	background:url(../img/wechat.png) no-repeat;
+	background-size:cover;
+	width:30px;
+	height:30px;
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:10px;
+}
+.service{
+	margin:60px auto;
+}
+.service span{
+	border-bottom:3px solid #8fad52;
+	padding-bottom:10px;
+}
+.product{
+	margin-top:60px;
+}
+.product_wrap{
+	position:relative;
+	width:100%;
+	height:300px;
+	overflow: hidden;
+}
+.product_info{
+	position:absolute;
+	top:240px;
+	width:100%;
+	height:100%;
+	background:transparent;
+	transition:all 0.3s;
+	
+}
+.product_wrap:hover .product_info{
+	top: 0;
+	padding-bottom: 50px;
+	background: rgba(255, 255, 255, 0.8);
+	padding:40px 20px;
+}
+.product_wrap:hover .product_title{
+	text-align: center;
+}
+.product_img{
+	width:100%;
+	height:250px;
+}
+.product_content p{
+	word-break: break-all;
+	word-wrap: break-word;
+	text-indent:2em;
+}
+
+.about_team .about_team_content{
+	text-indent:2em;
+}
+.person_team{
+	margin-top:60px;
+}
+.person_team_wrap{
+	margin-top:60px;
+}
+.person_team_wrap_in{
+	position:relative;
+	border:1px solid #e6d4d4;
+	height:300px;
+	margin:0 20px;
+}
+.person_team_wrap_title{
+	position:absolute;
+	top:-30px;
+	border:1px solid #a9a4d6;
+	padding:4px;
+	border-radius:50%;
+	margin-left:126px;
+	background: #fff;
+}
+.person_team_wrap_title img{
+	width:60px;
+	height:60px;
+	border-radius:50%;
+
+}
+.person_team_wrap_content{
+	margin-top:60px;
+}
+.person_team_wrap_content p{
+	text-align:center;
+	font-family: "楷体";
+	font-weight:bold;
+	font-size:16px;
+	color:#8b7aab;
+}
+.person_team_wrap_content_tr{
+	padding:20px 30px;
+}
+.server_team_title{
+	margin-bottom:40px;
+}
+.server_team_title span{
+	font-size:26px;
+	font-weight:bold;
+	border-bottom:4px solid #a2b0c1;
+	padding-bottom:8px;
+}
+.server_team_wrap_in{
+	border:1px solid #a2b0c1;
+	padding:20px 10px;
+	border-radius:10px 10px 0 10px;
+}
+.server_team_wrap_title h4{
+	text-align: center;
+}
+
+
+.contact{
+	border-top:1px solid #bdcaa2;
+	border-bottom:1px solid #bdcaa2;
+}
+.contact_box{
+	padding:30px 0;
+	font-size:20px;
+	margin-top:80px;
+}
+
+.footer{
+	background:#bdcaa2;
+	padding:60px 20px;
+}
+
+
+
+
+@media (max-width: 500px){
+	#toggleContent {
+		background:#fbfbfb;
+	}
+	.service{
+		margin:30px auto;
+	}
+	.contact_box{
+		border-bottom:1px solid #309823;
+	}
+	.lastbox .contact_box{
+		border-bottom:none;
+	}
+	nav .navbar-header .navbar-brand{
+		transform: scale(0.8)
+	}
+	.navbar-toggle{
+		margin-top:16px;
+	}
+	.person_team_wrap_title{
+		margin-left:106px;
+	}
+	.person_team_wrap .col-xs-12{
+		margin-top:40px;
+	}
+	.person_team_wrap{
+		margin-top:30px;
+	}
+	.server_team_wrap .col-xs-12{
+		margin-bottom:10px;
+	}
+	.server_team_title span{
+		font-size:20px;
+		border-bottom:2px solid #a2b0c1;
+	}
+}
+

@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>鼎尊团队</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Keywords" content="鼎尊团队，微信投票，刷票">
+	<meta name="Description" content="如果您选择鼎尊，那将一定不会错。">
+	<link rel="shortcut icon" type="images/x-icon"  href="img/icon.png">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/Timeline.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body ng-app="myApp">
+	<div class="wrap" ng-controller="myController">
+		<header>
+			<div class="header">
+				<nav class="navbar navbar-default bs-docs-nav navbar-fixed-top sticky-navigation appear-on-scroll">
+					<div class="container">
+						<div class="row header-container-wrap">
+							<div class="navbar-header navbar-header-wrap">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#toggleContent">
+									<span class="sr-only">Toggle navigation</span>
+							        <span class="icon-bar"></span>
+							        <span class="icon-bar"></span>
+							        <span class="icon-bar"></span>
+								</button>
+								<a href="#" class="navbar-brand" title="鼎尊团队">
+									<img src="img/logo.png" alt="logo">
+								</a>
+							</div>
+							<div class="navbar-collapse collapse" id="toggleContent">
+								<ul class="nav navbar-nav navbar-right">
+									<li class="active"><a href="#/home" ng-click="select($event)" title="首页">首页</a></li>
+									<li><a href="#/about" ng-click="select($event)" title="团队介绍">团队介绍</a></li>
+									<li ><a href="#/service" ng-click="select($event)" title="业务范围">业务范围</a></li>
+									<li ><a href="#/case" ng-click="select($event)" title="活动案例">活动案例</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<div class="content">
+			<script type="text/ng-template" id="home.html">
+				<div class="overlay_wrap">
+					<div class="overlay_content">
+						<div class="overlay_box">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-5 col-xs-12 text-center">
+										<h1>鼎尊刷票团队</h1>
+										<p class="text-left">在我们看来有三种人，生意人：创造钱；商人：有所为，有所不为。企业家：为社会承担责任。企业家应该为社会创造环境。企业家必须要有创新的精神。如果您选择鼎尊，那将一定不会错。</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		      	<div class="weChat_container">
+		      		<p class="text-center"><span class="weChat_icon"></span>微信：Q80016</p>
+		      	</div>
+		      	<div class="service">
+		      		<h1 class="text-center"><span>服务</span></h1>
+		      		<div class="product">
+		      			<div class="container">
+		      				<div class="row">
+		      					<div class="col-md-4 col-xs-12">
+		      						<div class="product_wrap" >
+		      							<div class="product_img" style="background:url(img/wechat.jpg) no-repeat;background-size:cover">
+		      							</div>
+
+		      							<div class="product_info">
+		      								<div class="product_title">
+		      									<h3>微信刷票</h3>
+		      								</div>
+		      								<div class="product_content">
+		      									<p>壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。少焉，月出于东山之上，徘徊于斗牛之间。</p>
+		      								</div>
+		      							</div>
+		      						</div>
+		      						
+		      					</div> 
+		      					<div  class="col-md-4 col-xs-12">
+		      						<div class="product_wrap">
+		      							<div class="product_img" style="background:url(img/phone.jpg) no-repeat;background-size:cover">
+		      							</div>
+
+		      							<div class="product_info">
+		      								<div class="product_title">
+		      									<h3>网络投票</h3>
+		      								</div>
+		      								<div class="product_content">
+		      									<p>壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。少焉，月出于东山之上，徘徊于斗牛之间。</p>
+		      								</div>
+		      							</div>
+		      						</div>
+		      						
+		      					</div>
+		      					<div class="col-md-4 col-xs-12">
+		      						<div  class="product_wrap">
+		      							<div class="product_img" style="background:url(img/person.jpg) no-repeat;background-size:cover">
+		      							</div>
+
+		      							<div class="product_info">
+		      								<div class="product_title">
+		      									<h3>人工拉票</h3>
+		      								</div>
+		      								<div class="product_content">
+		      									<p>壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。少焉，月出于东山之上，徘徊于斗牛之间。</p>
+		      								</div>
+		      							</div>
+		      						</div>
+		      						
+		      					</div>
+		      				</div>
+		      			</div>
+		      		</div>
+		      	</div>
+
+		  	</script>
+
+		  	<script type="text/ng-template" id="about.html">
+		      	<div class="container"  style="padding:20px">
+		      		<div class="row">
+		      			<div class="about_team">
+		      				<h2 class="about_team_title">关于我们</h2>
+		      				<hr/>
+							<div class="about_team_content">
+								冠军微信刷票团队打造国内最专业最有执行的人工拉票团队，微信投票团队，我们从执行力上比肩的是房地产行业的恒大，网络行业我们比肩的是深圳的华为。我们不是像狼一样冲上去撕咬对手，但是我们专注于微信刷票，微信投票行业的内涵与细节，一个完整的刷票流程被我们分解成为二十个前后的单元，试问，还有谁有这样的细致工作，这样的团队不成功，什么样的团队才能成功呢？
+								冠军微信刷票团队的业务范围：微信刷票，微信投票，网络投票，人工微信拉票等等，只要您需要票数，一个电话打到我们这儿，万事都OK了。
+								我们团队所有投手每天的目标只有一个，就是帮助您获得冠军，您对冠军的美好向往就是我们的奋斗目票，我们郑重向您承诺：我们绝对不用软件刷票，保证每一票都是真实的，一个手机对应一票，不管任何活动我们的票数绝对是自然真实有效的！
+								可以包名次，只为您成功！
+							</div>
+		      			</div>
+		      			<hr>
+		      			<div class="person_team">
+		      				<h2 class="person_team_title">团队介绍</h2>
+		      				<hr/>
+							<div class="person_team_wrap">
+								<div class="container" style="padding-bottom:80px;">
+									<div class="row">
+										<div class="col-md-4 col-xs-12">
+											<div class="person_team_wrap_in">
+												<div class="person_team_wrap_title">
+													<img src="img/p1.jpg" alt="p1">
+												</div>
+												<div class="person_team_wrap_content">
+													<p>张春生</p>
+													<div class="person_team_wrap_content_tr">
+														111111111111111
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4 col-xs-12">
+											<div class="person_team_wrap_in">
+												<div class="person_team_wrap_title">
+													<img src="img/p2.jpg" alt="p1">
+												</div>
+												<div class="person_team_wrap_content">
+													<p>张春生</p>
+													<div class="person_team_wrap_content_tr">
+														111111111111111
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4 col-xs-12">
+											<div class="person_team_wrap_in">
+												<div class="person_team_wrap_title">
+													<img src="img/p3.jpg" alt="p1">
+												</div>
+												<div class="person_team_wrap_content">
+													<p>张春生</p>
+													<div class="person_team_wrap_content_tr">
+														111111111111111
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+		      			</div>
+		      		</div>
+		      	</div>
+		  	</script>
+		  	<script type="text/ng-template" id="service.html">
+		      	<div class="container"  style="padding:26px">
+		      		<div class="row">
+		      			<div class="server_team">
+		      				<h2 class="server_team_title"><span>我们将为您提供</span></h2>
+							<div class="server_team_wrap">
+								<div class="container" style="padding-bottom:80px;">
+									<div class="row">
+										<div class="col-md-3 col-xs-12">
+											<div class="server_team_wrap_in">
+												<div class="server_team_wrap_title">
+													<h4>微信投票</h4>
+												</div>
+												<div class="server_team_wrap_content">
+													
+													<div class="server_team_wrap_content_tr">
+														111111111111111
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3 col-xs-12">
+											<div class="server_team_wrap_in">
+												<div class="server_team_wrap_title">
+													<h4>微信投票</h4>
+												</div>
+												<div class="server_team_wrap_content">
+													
+													<div class="server_team_wrap_content_tr">
+														111111111111111
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3 col-xs-12">
+											<div class="server_team_wrap_in">
+												<div class="server_team_wrap_title">
+													<h4>微信投票</h4>
+												</div>
+												<div class="server_team_wrap_content">
+													
+													<div class="server_team_wrap_content_tr">
+														111111111111111
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3 col-xs-12">
+											<div class="server_team_wrap_in">
+												<div class="server_team_wrap_title">
+													<h4>微信投票</h4>
+												</div>
+												<div class="server_team_wrap_content">
+													
+													<div class="server_team_wrap_content_tr">
+														111111111111111
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+		      			</div>
+		      		</div>
+		      	</div>
+		  	</script>
+		  	<script type="text/ng-template" id="case.html">
+		      	<div class="container" style="padding-bottom:40px">
+		      	        <div class="row">
+		      	            <div class="col-md-12">
+		      	                <div class="VivaTimeline">
+		      	                    <dl>
+		      	                        <dt>2018年7月</dt>
+		      	                        <dd class="pos-left clearfix">
+		      	                            <div class="circ"></div>
+		      	                            <div class="time">07-01</div>
+		      	                            <div class="events">
+		      	                                <div class="events-header">猫咪萌宠活动</div>
+		      	                                <div class="events-body">
+		      	                                    <div class="row">
+		      	                                        <div class="col-md-6 pull-left">
+		      	                                            <img class="events-object img-responsive img-rounded" src="img/dog01.png" />
+		      	                                        </div>
+		      	                                        <div class="events-desc">
+		      	                                            1111111111111111111111
+		      	                                        </div>
+		      	                                    </div>
+		      	                                    <div class="row">
+		      	                                        <div class="col-md-6 pull-left">
+		      	                                            <img class="events-object img-responsive img-rounded" src="img/dog02.png" />
+		      	                                        </div>
+		      	                                        <div class="events-desc">
+		      	                                            2222222222222222222
+		      	                                        </div>
+		      	                                    </div>
+		      	                                    <div class="row">
+		      	                                        <div class="col-md-6 pull-left">
+		      	                                            <img class="events-object img-responsive img-rounded" src="img/dog03.png" />
+		      	                                        </div>
+		      	                                        <div class="events-desc">
+		      	                                            3333333333333333333333333333
+		      	                                        </div>
+		      	                                    </div>
+		      	                                </div>
+		      	                                <div class="events-footer">
+		      	                                    123
+		      	                                </div>
+		      	                            </div>
+		      	                        </dd>
+		      	                        <dd class="pos-right clearfix">
+		      	                            <div class="circ"></div>
+		      	                            <div class="time">07-13</div>
+		      	                            <div class="events">
+		      	                                <div class="events-header">狗狗萌宠活动</div>
+		      	                                <div class="events-body">
+		      	                                    <div class="row">
+		      	                                        <div class="col-md-6 pull-left">
+		      	                                            <img class="events-object img-responsive img-rounded" src="img/dog01.png" />
+		      	                                        </div>
+		      	                                        <div class="events-desc">
+		      	                                            1111111111111111111111
+		      	                                        </div>
+		      	                                    </div>
+		      	                                    <div class="row">
+		      	                                        <div class="col-md-6 pull-left">
+		      	                                            <img class="events-object img-responsive img-rounded" src="img/dog02.png" />
+		      	                                        </div>
+		      	                                        <div class="events-desc">
+		      	                                            2222222222222222222
+		      	                                        </div>
+		      	                                    </div>
+		      	                                    <div class="row">
+		      	                                        <div class="col-md-6 pull-left">
+		      	                                            <img class="events-object img-responsive img-rounded" src="img/dog03.png" />
+		      	                                        </div>
+		      	                                        <div class="events-desc">
+		      	                                            3333333333333333333333333333
+		      	                                        </div>
+		      	                                    </div>
+		      	                                </div>
+		      	                                <div class="events-footer">
+		      	                                    123
+		      	                                </div>
+		      	                            </div>
+		      	                        </dd>
+		      	                        <dt>2018年8月</dt>
+		      	                        <dd class="pos-left clearfix">
+		      	                            <div class="circ"></div>
+		      	                            <div class="time">08-08</div>
+		      	                            <div class="events">
+		      	                                <div class="events-header">吃货大赛</div>
+		      	                                <div class="events-body">
+		      	                                    <div class="row">
+		      	                                        <div class="col-md-6 pull-left">
+		      	                                            <img class="events-object img-responsive img-rounded" src="img/cat01.png" />
+		      	                                        </div>
+		      	                                        <div class="events-desc">
+		      	                                            11111111111111111
+		      	                                        </div>
+		      	                                    </div>
+		      	                                    <div class="row">
+		      	                                        <div class="col-md-6 pull-left">
+		      	                                            <img class="events-object img-responsive img-rounded" src="img/cat02.png" />
+		      	                                        </div>
+		      	                                        <div class="events-desc">
+		      	                                            22222222222222222
+		      	                                        </div>
+		      	                                    </div>
+		      	                                    <div class="row">
+		      	                                        <div class="col-md-6 pull-left">
+		      	                                            <img class="events-object img-responsive img-rounded" src="img/cat03.png" />
+		      	                                        </div>
+		      	                                        <div class="events-desc">
+		      	                                            33333333333333333333333
+		      	                                        </div>
+		      	                                    </div>
+		      	                                </div>
+		      	                                <div class="events-footer">
+
+		      	                                </div>
+		      	                            </div>
+		      	                        </dd>
+		      	                        <dd class="pos-right clearfix">
+		      	                            <div class="circ"></div>
+		      	                            <div class="time">08-23</div>
+		      	                            <div class="events">
+		      	                                <div class="events-header">小娃游泳比赛</div>
+		      	                                <div class="events-body">
+		      	                                    <div class="row">
+		      	                                        <div class="col-md-6 pull-left">
+		      	                                            <img class="events-object img-responsive img-rounded" src="img/rabbit01.png" />
+		      	                                        </div>
+		      	                                        <div class="events-desc">
+		      	                                            11111111111111111
+		      	                                        </div>
+		      	                                    </div>
+		      	                                </div>
+		      	                            </div>
+		      	                        </dd>
+		      	                    </dl>
+		      	                </div>
+		      	            </div>
+		      	        </div>
+		      	    </div>
+		  	</script>
+			<div ng-view=""></div>
+			<div class="contact">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-xs-12">
+							<div class="contact_box">
+								<p class="text-center"><i class="fa fa-envelope"></i></p>
+								<p class="text-center">1615757447@qq.com</i></p>
+							</div>
+						</div>
+						<div class="col-md-4 col-xs-12">
+							<div class="contact_box">
+								<p class="text-center"><i class="fa fa-map-marker"></i></p>
+								<p class="text-center">安徽省合肥市</i></p>
+							</div>
+						</div>
+						<div class="col-md-4 col-xs-12 lastbox">
+							<div class="contact_box">
+								<p class="text-center"><i class="fa fa-phone"></i></p>
+								<p class="text-center">18756080016</i></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-xs-12">
+							<p>公司详细地址：安徽省合肥市</p>
+						</div>
+						<div class="col-md-6 col-xs-12 text-right">
+							<img src="img/1.jpg" width="200">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.js" type="text/javascript"></script>
+	<script src="js/angular.min.js" type="text/javascript"></script>
+	<script src="js/angular-route.js" type="text/javascript"></script>
+	<script src="js/Timeline.js" type="text/javascript"></script>
+	<script src="js/app.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	    $(document).ready(function () {
+	        $('.VivaTimeline').vivaTimeline({
+	            carousel: true,
+	            carouselTime: 3000
+	        });
+	    });
+	</script>
+
+</body>
+</html>
